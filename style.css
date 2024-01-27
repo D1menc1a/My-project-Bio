@@ -129,6 +129,7 @@ Footer p {
 .fa-vk {
     margin-right: 0;
 }
+
 /* ... (ваш существующий CSS) */
 
 .main-content h1 {
@@ -182,3 +183,90 @@ Footer p {
 
 /* ... (ваш существующий CSS) */
 
+/* ... (ваш существующий CSS) */
+
+.main-content h1 {
+    text-align: center;
+}
+
+.project-container {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: left;
+}
+
+.button-image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.button {
+    background-color: #2323a7;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #06c902;
+    transition: 0.5s;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ... (ваш существующий CSS) */
+/* ... (ваш существующий CSS) */
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.project-container {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: left;
+}
+
+.button-image-container {
+    display: flex;
+    flex-direction: column;
+    /* Изменено на вертикальное расположение */
+    align-items: center;
+    margin-top: 10px;
+}
+
+.button {
+    background-color: #2323a7;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #06c902;
+    transition: 0.5s;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ... (ваш существующий CSS) */
